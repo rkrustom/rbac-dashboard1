@@ -1,0 +1,131 @@
+/* main.css */
+
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font */
+    background-color: #f4f7fc; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6; /* Improved line height for readability */
+    padding: 0 20px; /* Padding to avoid the edges of the screen */
+  }
+  
+  /* Global styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40; /* Dark color for headings */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Global link styles */
+  a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Default link color */
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Set up a container for centering content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Add a consistent margin to sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Flexbox utilities */
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Utility class for spacing */
+  .mt-5 {
+    margin-top: 50px;
+  }
+  
+  .mb-5 {
+    margin-bottom: 50px;
+  }
+  
+  .m-3 {
+    margin: 16px;
+  }
+  
+  .p-3 {
+    padding: 16px;
+  }
+  
+  /* Border and Shadow */
+  .border-radius {
+    border-radius: 8px;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add custom scrollbar style */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  /* Custom footer styles */
+footer {
+    background-color: #343a40 !important; /* Dark background */
+  }
+  
+  footer .social-icon {
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  footer .container {
+    max-width: 1200px; /* Control container width */
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,123 @@
+/* General styles for the App container */
+.App {
+  text-align: center;
+  background-color: #f4f7fc; /* Light background for a clean look */
+  font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+  min-height: 100vh;
+}
+
+/* Styling the header for the Admin Dashboard */
+.App-header {
+  background-color: #343a40; /* Dark background for the header */
+  padding: 20px 0;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-bottom: 30px;
+}
+
+/* Main content styling (UserManager and RoleManager) */
+.App-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Styling for individual cards (UserManager and RoleManager) */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Button styles for action buttons (if any in UserManager/RoleManager) */
+.btn {
+  background-color: #007bff; /* Primary blue button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for the logo */
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+/* Styling for links */
+.App-link {
+  color: #61dafb;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+  color: #21a1f1;
+}
+
+/* Keyframe animation for the logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .App-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-header {
+    font-size: 2rem; /* Adjust font size on smaller screens */
+  }
+
+  .card {
+    width: 90%; /* Cards take up full width on mobile */
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+

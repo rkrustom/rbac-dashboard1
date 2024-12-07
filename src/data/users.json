@@ -1,0 +1,5 @@
+[
+    {"id": 1, "username": "rajeev.kumar", "email": "rajeev.nita2025@gmail.com", "status": "Active", "roles": ["Admin"]},
+    {"id": 2, "username": "sachin.kumar", "email": "sachinkumarsky@gmail.com", "status": "Inactive", "roles": ["User"]}
+  ]
+  
