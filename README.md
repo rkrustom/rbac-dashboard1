@@ -11,9 +11,9 @@ The **RBAC Admin Dashboard** is a role-based access control (RBAC) user interfac
 - **Mock API Integration**: Simulate API calls using Axios and MirageJS for CRUD operations.
 
 ## **Technologies Used**
-- **Frontend**: React.js, Redux for state management
-- **Styling**: Bootstrap, Material-UI
-- **API Simulation**: Axios, MirageJS
+- **Frontend**: React.js
+- **Styling**: Bootstrap
+- **API Simulation**: Axios
 - **Additional Libraries**: Formik for form handling, Yup for validation
 
 ## **Getting Started**
