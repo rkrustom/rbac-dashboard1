@@ -1,7 +1,7 @@
-# **VRV Security RBAC Admin Dashboard**
+# **RBAC Admin Dashboard**
 
 ## **Introduction**
-The **VRV Security RBAC Admin Dashboard** is a role-based access control (RBAC) user interface designed to efficiently manage users, roles, and permissions. Built using **React.js**, it provides a secure, responsive, and user-friendly experience tailored for modern admin operations.
+The **RBAC Admin Dashboard** is a role-based access control (RBAC) user interface designed to efficiently manage users, roles, and permissions. Built using **React.js**, it provides a secure, responsive, and user-friendly experience tailored for modern admin operations.
 
 ## **Features**
 - **User Management**: View, add, edit, delete users, assign roles, and toggle active/inactive status.
